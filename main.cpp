@@ -2,8 +2,8 @@
 
 int main() {
     int a = 2;
-    int b = 3;
-    std::cout << b * a << '\n';
-    std::cout << a - b << '\n';
+    std::cout << a * a + a << '\n';
+    std::cout << a - a - a/a << '\n';
+
     return 0;
 }
